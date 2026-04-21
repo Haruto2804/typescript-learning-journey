@@ -17,17 +17,11 @@ The following code has an error. Identify the line with the error and explain wh
 
 TypeScript
 type LaptopBrand = "Apple" | "Dell" | "Asus";
-
 type LaptopInventory = Record<LaptopBrand, number>;
-
 const myStock: LaptopInventory = {
-
-"Apple": 10,
-
-"Dell": 5,
-
-"HP": 12 // Is there a problem with this line?
-
+  "Apple": 10,
+  "Dell": 5,
+  "HP": 12 // Is there a problem with this line? -- ERROR: HP IS NOT IN LaptopBrand
 };
 */
 //# sourceMappingURL=04_objects_exercise.js.map
