@@ -55,7 +55,11 @@ function renderUI(state) {
             return _exhaustiveCheck;
     }
 }
+/* -------------------------------------------------------------------------- */
+/* THE GOLDEN RULES FOR HARUTO                                                */
+/* -------------------------------------------------------------------------- */
 /**
+ *
  * 1. NARROWING: Luôn sử dụng Literal Types để thu hẹp phạm vi biến (Type Narrowing), giúp tránh bug logic.
  * 2. PREDICTABILITY: Ưu tiên Union của Literals thay vì 'string' bừa bãi để IDE có thể gợi ý (Intellisense) chính xác.
  * 3. CONST ASSERTION: Sử dụng 'as const' khi định nghĩa các Object cấu hình (config) để đảm bảo tính bất biến toàn diện.
