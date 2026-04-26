@@ -85,10 +85,16 @@ const movieList: Movie[] = [
     }
 ];
 
+
+//ARRAY READONLY
+// Khi dùng readonly, TypeScript sẽ ẩn hoàn toàn các hàm có khả năng làm thay đổi mảng gốc. Nếu Bảo cố tình gọi chúng, VS Code sẽ báo lỗi ngay lập tức.
+
+// Các hàm bị cấm: .push(), .pop(), .shift(), .unshift(), .splice(), .sort(), .reverse().
+// Các hàm vẫn dùng được: .map(), .filter(), .slice(), .concat(), .reduce(). (Vì các hàm này trả về một mảng mới chứ không sửa mảng cũ).
+//Cách khai báo: const systemConfig: readonly string[] = ["v1", "v2"];
 /* -------------------------------------------------------------------------- */
 /* THE GOLDEN RULES FOR HARUTO                                                */
 /* -------------------------------------------------------------------------- */
-
 /**
  * 1. TYPE ANNOTATION: Luôn khai báo kiểu cho mảng rỗng [] để tránh lỗi 'any' ngầm định.
  * 2. GENERIC VS BRACKET: Sử dụng [] cho mảng đơn giản, dùng Array<T> khi viết Generic functions.
