@@ -67,6 +67,6 @@ const movieList = [
  * 3. READONLY: Sử dụng 'readonly' cho các hằng số cấu hình hệ thống hoặc dữ liệu từ API không được phép sửa.
  * 4. ARRAY METHODS: Các hàm như .map(), .filter(), .reduce() sẽ tự động nhận diện kiểu dữ liệu của phần tử dựa trên khai báo mảng.
  */
-console.log("Lesson 10: Array masterclass documented for Haruto.");
+console.log("Lesson 9: Array masterclass documented for Haruto.");
 export {};
 //# sourceMappingURL=09_arrays.js.map

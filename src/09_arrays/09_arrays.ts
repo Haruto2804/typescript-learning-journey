@@ -102,4 +102,4 @@ const movieList: Movie[] = [
  * 4. ARRAY METHODS: Các hàm như .map(), .filter(), .reduce() sẽ tự động nhận diện kiểu dữ liệu của phần tử dựa trên khai báo mảng.
  */
 
-console.log("Lesson 10: Array masterclass documented for Haruto.");
+console.log("Lesson 9: Array masterclass documented for Haruto.");
